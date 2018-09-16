@@ -44,6 +44,7 @@ nav{
 	background-color: #C4C70D;
 	margin-right: 5px;
     align-items: center;	
+    box-shadow: 0 60px 80px 6px;
 }
  nav a{
  	display: block;
@@ -54,11 +55,25 @@ nav{
     color: white;
 
  }
+ #welcome-section #intro{
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ }
 
-#welcome-section #intro{
+#welcome-section #intro #logo img{
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 100px;
+	height: 300px;
+	width: 300px;
+}
+#welcome-section #intro form{
+
     position: relative;
+    display: inline-block;
     margin-top: 50px;
-    margin-left: 700px;
+    
 	width: 500px;
 	font-family: 'Open Sans', sans-serif;
 }
