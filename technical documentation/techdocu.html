@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="techdocu.css">
+	<title>technical documentation</title>
+</head>
+<body>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div id="page-wrapper">
+	<div class="page-alignment">
+	<div class="leftside">
+		<nav id="navbar">
+			<header>
+				<h1>OOPS Documentation</h1>
+			</header>
+			<ul>
+				<li ><a href="#OOps_definition" class="nav-link">OOPS Definition</a></li>
+				<li ><a href="#OOPS_Advantage" class="nav-link">OOPS Advantage</a></li>
+				<li ><a href="#Class" class="nav-link">Class</a></li>
+				
+				<li ><a href="#Inheritance" class="nav-link">Inheritance</a></li>
+				<li ><a href="#Polymorphism" class="nav-link">Polymorphism</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	<main class="rightside" id="main-doc">
+		<div id="heading"><h3>CONTENT @ OOps</h3> </div>
+		<div id="content">
+        <section id="OOps_definition" class="main-section">
+        	<header id="title">OOps definition</header>
+        	<p>Oops stands for object oriented programming language, This is in contrast to the tradition procedural programming language
+        	where we look at the program as a set of instruction and try to achieve that with the help of function where the functions 
+        	are used to get the tasks done.</p><p> Here we look at the problem as a set of objects which have the datamembers and the functions
+        	which act upon them.</p>
+        </section>
+        <hr/>
+        <section id="OOPS_Advantage" class="main-section">
+        	<header id="title">OOPS Advantage</header>
+        	<p>The major advantage of OOps over traditional procedural programming is that it provides us with a number of features which
+        	make the software development task easy to model and understand and thus reduces the complextiy and cumbursumeness. It provides
+        	a number of special features which is not available in the procedural programming, that includes but is not limited to
+        	data hiding feature which puts a restraint on the number of people who can acces and change it, while helping the ones who have the required authentication to do that.</p><p> The othe one is the concept of class as they provides encapsulation which means that the 
+        	data and the functions reside together and the are thus closely related to one anothe as opposed to the prodedural programming 
+        	There are infact many advantages and benefits which we will take a look as we go deep into this article.</p>
+        </section>
+        <hr>
+        <section id="Class" class="main-section">
+        	<header id="title">Class</header>
+        		<p>Classes are the core to the c++, Infact it is such an integral part of the language that when it inventot stroustrap first pulicised it , He called it as the c with classes. The classes are nothing but are an alternative to structures in c++.</p><p> But they have a lot of features which the structures lacked in . Although structures are also used in c++, but it is a general convention that when we need datamember with functions we use classes while when we need just datamembers we need classes. The functions defined in the class are callled member functions. Another good thing that this class provides is that it has scopes defined that is there are two scopes that can be used one is public and the other is private. The items which are defined as public can be accessed from outside of the class by instantiating the classes with objects and  the ones with the scope as private can be accessed by this method, for accessing them we need to use the member function. The scpe available in class are</p>
+        		<ol>
+        			<li>Private</li>
+        			<li>Public</li>
+        			<li>Protected</li>
+        		</ol>
+        		<code>public: </code>
+        		<code>private: </code>
+        		<code>protected: </code>
+        	</section>
+        	<hr>
+        	<section id="Inheritance" class="main-section">
+        		<header id="title">Inheritance</header>
+        		<p>Inheritance is the property of oops which truly promotes the concept of reusability, some times the kind of data and member functions that we need are already present in the class and we just need to modify it a little in that kind of cases , inheritance can be a boon for us, the way of using inheritance is as follows:-</p>
+        		<code>class B: public A</code>
+        		<p>where public defines the visibility mode</p>
+        		<p>Types of inheritances are:-</p>
+        		<ul>
+        			<li>single level inheritance</li>
+        			<li>multi level inheritance</li>
+        			<li>heirarchial inheritance</li>
+        			<li>hybrid inheritance</li>
+        		</ul>
+        	</section>
+        	<hr>
+        	<section id="Polymorphism" class="main-section">
+        		<header id="title">Polymorphism</header>
+        		<p>Polymorphism literally means one name and many forms, there are two types of polymorphism runtime polymorphism and compile time polymorphism, in runtime polymorphism we defint the functional overloading and operator overloading , the basic syntax of both is defined as below:-</p>
+        		<code>draw(int a, int b, int c)</code>
+        		<code>draw(int a, int b, float c)</code>
+        		<code>draw(float a, float b, int c)</code>
+        		<br>
+        		<code><i>returnType</i>operator+(class b)</code>
+        		<p>while in runtime polymorphism we define a function as virtual by adding a virtual keyword to it</p>
+        		<code>virtual void play(int a)</code>
+        	</section>
+        </div>
+        </main>
+	</div>
+</div>
+</div>
+
+</body>
+</html>

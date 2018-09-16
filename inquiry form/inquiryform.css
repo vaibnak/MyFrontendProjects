@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html, body {
+	font-family: 'Raleway', Helvetica, sans-serif;
+	background-color: #9AE5F8;
+	min-width: 400px;
+	text-align: center;
+}
+
+#title{
+	font-family: 'Prociono', serif;
+	text-align: center;
+	text-shadow: 2px;
+	font-size: 30px;
+}
+
+#description{
+	text-align: center;
+	text-decoration: underline;
+}
+
+#survey-form{
+	position: relative;
+	height: 800px;
+	width: 60%;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 5%;
+	border: 2px solid black;
+	margin-top: 50px;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+#labelp{
+	display: inline-block;
+	width: 40%;
+	text-align: right;
+	padding: 5px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+#inp{
+	display: inline-block;
+	text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.inp-field{
+	height: 20px;
+	width: 200px;
+	padding: 5px;
+	margin: 10px;
+	 border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#number{
+	width: 120px;
+}
+
+.st{
+	float: left;
+	margin-right: 5px;
+}
+
+#dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio, .checkbox{
+	position: relative;
+	left: -37px;
+	margin-left: 10px;
+	display: block;
+	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 830px){
+	#inp{
+      width: 80%;
+	}
+	
+	select{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 520px){
+	#labelp{
+		text-align: left;
+		width: 100%;
+		float: left; 
+	}
+	#inp{
+		width: 80%;
+		float: left;
+	}
+	.input-field{
+		width: 100%;
+	}
+	select{
+		width: 100%;
+	}
+}
+/*
+.arrange{
+
+    display: inline-block;
+	width: 400px;
+	text-align: center;
+	margin-left: 20px;
+}
+*/
+
+
+
+
+

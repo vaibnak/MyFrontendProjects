@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #D8FFB7;
+	
+}
+
+@media only screen and (max-width: 800px){
+	#video{
+	      width: 100px;
+	      height: 80px;
+		 float: left;
+	}
+
+	#flex-container{
+		float: left;
+	}
+	
+}
+
+#header{
+	margin-top: 0px;
+	letter-spacing: 8px;
+	word-spacing: 20px;
+	color: #6CE505;
+	padding: 30px;
+	padding-top: 0px;
+	font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 40px;
+    background-color: #254F01;
+
+}
+
+#header-img{
+    vertical-align: middle;
+	height: 60px;
+	width: 70px;
+	border-radius: 50%;
+}
+
+.title{
+	margin-top: 10px;
+}
+
+#nav-bar{
+    background-color: black;
+    position: fixed;
+	width: 100%;
+	margin: 0px;
+    padding: 0px;
+	font-family: 'Libre Franklin', sans-serif;
+	color: yellow;
+	font-size: 15px;
+	margin-bottom: 15px;
+   
+}
+
+#nav-bar a {
+	
+	margin-left: 15px;
+    
+    padding: 0px;
+	letter-spacing: 2px;
+	word-spacing: 0px;
+	color: yellow;
+	text-decoration: none;
+}
+
+#nav-bar a:hover {
+	background-color: #555;
+}
+
+#info{
+    font-family: 'Roboto', sans-serif;
+	text-align: center;
+  margin-top: 50px;
+
+}
+
+#form {
+	margin: auto;
+	text-align: center;
+	width: 400px;
+	margin-top: 5px;
+}
+
+#form label{
+ font-family: 'Roboto', sans-serif;
+}
+
+#form input{
+	text-align: center;
+	padding: 5px;
+}
+
+#video{
+    width: 500px;
+    height: 300px;
+    border: 5px solid #254F01;
+	margin-left: 30%;
+	margin-top: 40px;
+
+}
+
+#form #submit{
+	background-color: #6CE505;
+	border: 2px solid #254F01; 
+}
+
+.flex-container{
+	
+	display: flex;
+	margin-top: 50px;
+    justify-content: center;
+    
+}
+
+.flex-container >div{
+
+width: 300px;
+margin: 10px;
+padding: 20px;
+border: 2px solid #254F01 ;
+}
+
+.end{
+	position: relative;
+	padding: 50px;
+	color: white;
+	margin-top: 70px;
+	height: 200px;
+	background-color: #484849;
+}
+
+.help ul {
+	list-style-type: none;
+}
+
+.contact{
+	position: absolute;
+	top: 70px;
+	left: 40%;
+
+}
+
+.contact img {
+	margin: 20px;
+	position: relative;
+	height: 50px;
+	width: 50px;
+}
+
+.contact:hover img {
+transform: scale(1);
+}
+
+.contact img:hover {
+transform: scale(1.2);
+}
+.star{
+	padding-right: 100px;
+	
+	position: relative;
+    margin-top: 12px;
+	
+	height: 100px;
+}
+
+.star img{
+	position: absolute;
+	width: 100px;
+	height: 100px;	
+}
+
+
+/*
+@media only screen and  (max-width: 800px){
+	.help{
+		width: 100%;
+	}
+	.contact{
+		width: 100%;
+	}
+	.star{
+		width: 100%;
+	}
+}
+*/

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myWEB</title>
+	<link rel="stylesheet" type="text/css" href="intro.css">
+</head>
+<body>
+	<script type="text/javascript">
+		
+		var $document = $(document),
+		$element = $('.header'),
+		className = 'box-shadow';
+
+		$document.scroll(function() {
+			if ($document.scrollTop() >= 50) {
+				$element.addClass(className);
+			}else{
+				$element.removeClass(className);
+			}
+		});
+	</script>
+<div id="page-wrapper">
+	<header class ="header">
+		<div class="logo">
+			<img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" id="header-img">
+		</div>
+		<nav id="navbar">
+			<ul>
+				<li><a href="" class="nav-link">HOW</a></li>
+				<li><a href="" class="nav-link">WHEN</a></li>
+				<li><a href="" class="nav-link">WHERE</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section id="hero">
+		<h2>You are here Because i want</h2>
+		<form id="form" action="https://www.freecodecamp.com/email-submit">
+			<input type="email" name="email" id="email" placeholder="Your email">
+			<button type="btn" class="submit" id="getstarted" name="submit" value="submit it">submit</button>
+		</form>
+	</section>
+
+	<div class="container">
+		<section id="features">
+			<div class="grid">
+				<div class="icon">
+					<i class="fire"></i>
+				</div>
+				<div class="desc">
+					<h2>The Dark knight</h2>
+					<p>you either die as a hero or live long enough to see yourself becoming the villain</p>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="icon">
+					<i class="truck"></i>
+				</div>
+				<div class="desc">
+					<h2>Blood diamond</h2>
+					<p>Sometimes i look around and feel will god ever forgive us for what we have done to ourself, then i realize that god left this place a long time ago</p>
+				</div>
+			</div>
+			<div class="grid">
+				<div class="icon">
+					<i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+				</div>
+				<div class="desc">
+					<h2>Inception</h2>
+					<p>Dreams feel real untill we are in them , its only when we wake up we realize that something was actually strange</p>
+				</div>
+			</div>
+		</section>
+		<section id="how-it-works">
+			<iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen id="video"></iframe>
+		</section>
+		<section id="pricing">
+			<div id="joker">
+				<div id="head">JOKER</div>
+				<h2>500</h2>
+				<ol>
+					<li>psychopathic</li>
+					<li>smart</li>
+					<li>intelligent</li>
+				</ol>
+				<button class="btn">select</button>
+			</div>
+			<div id="batman">
+				<div id="head">BATMAN</div>
+				<h2>500</h2>
+				<ol>
+					<li>dark</li>
+					<li>smart</li>
+					<li>intelligent</li>
+				</ol>
+				<button class="btn">select</button>
+			</div>
+			<div id="dent">
+				<div id="head">DENT</div>
+				<h2>500</h2>
+				<ol>
+					<li>good</li>
+					<li>smart</li>
+					<li>intelligent</li>
+				</ol>
+				<button class="btn">select</button>
+			</div>
+		</section>
+        <footer>
+        	<ul>
+        		<li><a href="">THIS</a></li>
+        		<li><a href="">IS</a></li>
+        		<li><a href="">AWESOME</a></li>
+        	</ul>
+        	<span>We never know what we are capable of untill we push our boundaries</span>
+        </footer>
+	</div>
+</div>
+</body>
+</html> 
