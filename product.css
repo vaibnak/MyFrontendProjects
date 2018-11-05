@@ -46,15 +46,17 @@ html, body{
 }
 
 #nav-bar{
-    background-color: black;
-    position: fixed;
-	width: 100%;
+        
+        background-color: black;
+        position: fixed;
+	top: 0px;
+        width: 100%;
 	margin: 0px;
-    padding: 0px;
+       padding: 0px;
 	font-family: 'Libre Franklin', sans-serif;
 	color: yellow;
 	font-size: 15px;
-	margin-bottom: 15px;
+	
    
 }
 
